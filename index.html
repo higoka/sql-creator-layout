@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js" lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>SQL Creator</title>
+
+        <meta name="description" content="A small SQL Creator.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container_12">
+            <div class="grid_12">
+                <h2>SQL Creator</h2>
+            </div>
+            <form action="create.php" method="post">
+                <div class="grid_12">
+                    <h3>General</h3>
+                </div>
+                <div class="grid_4">
+                    <p>SWF</p>
+                    <input type="text" name="swf">
+                </div>
+                <div class="grid_4">
+                    <p>Name</p>
+                    <input type="text" name="name">
+                </div>
+                <div class="grid_4">
+                    <p>Description</p>
+                    <input type="text" name="description">
+                </div>
+
+
+                <div class="grid_12">
+                    <h3 style="margin-top: 50px;">Misc</h3>
+                </div>
+                <div class="grid_4">
+                    <p>Width</p>
+                    <input type="number" name="width" min="0" value="0">
+                </div>
+                <div class="grid_4">
+                    <p>Length</p>
+                    <input type="number" name="length" min="0" value="0">
+                </div>
+                <div class="grid_4">
+                    <p>Height</p>
+                    <input type="number" name="height" min="0" value="0">
+                </div>
+
+
+                <div class="grid_12">
+                    <h3 style="margin-top: 50px;">Ids</h3>
+                </div>
+                <div class="grid_4">
+                    <p>Page Id</p>
+                    <input type="number" name="pageId" min="0" value="0">
+                </div>
+                <div class="grid_4">
+                    <p>Furni Id</p>
+                    <input type="number" name="id" min="0" value="0">
+                </div>
+                <div class="grid_4">
+                    <p>Revision</p>
+                    <input type="number" name="revision" min="0" value="0">
+                </div>
+
+
+                <div class="grid_12">
+                    <h3 style="margin-top: 50px;">Price</h3>
+                </div>
+                <div class="grid_4">
+                    <p>Credits</p>
+                    <input type="number" name="credits" min="0" value="0">
+                </div>
+                <div class="grid_4">
+                    <p>Points</p>
+                    <input type="number" name="points" min="0" value="0">
+                </div>
+                <div class="grid_4">
+                    <p>Amount</p>
+                    <input type="number" name="amount" min="1" value="1">
+                </div>
+
+
+                <div class="grid_12">
+                    <h3 style="margin-top: 50px;">Other</h3>
+                </div>
+                <div class="grid_4">
+                    <label>
+                        <input type="checkbox" name="isSeatable">
+                        <span class="icon"><i class="fa fa-check"></i></span>Is seatable
+                    </label>
+                    <label style="margin-left: 20px;">
+                        <input type="checkbox" name="isWalkable">
+                        <span class="icon"><i class="fa fa-check"></i></span>Is walkable
+                    </label>
+                </div>
+            </form>
+            <div class="grid_12">
+                <button onclick="create();">CREATE</button>
+            </div>
+            <div id="result" style="display: none;">
+                <div class="grid_12">
+                    <h2>Result</h2>
+                </div>
+                <div class="grid_4">
+                    <h3>catalog_items</h3>
+                    <textarea id="catalogItems" onclick="this.focus(); this.select()" readonly></textarea>
+                </div>
+                <div class="grid_4">
+                    <h3>items_base</h3>
+                    <textarea id="itemsBase" onclick="this.focus(); this.select()" readonly></textarea>
+                </div>
+                <div class="grid_4">
+                    <h3>furnidata.xml</h3>
+                    <textarea id="furnidata" onclick="this.focus(); this.select()" readonly></textarea>
+                </div>
+            </div>
+            <footer class="grid_12">
+                <p style="text-align: center;">Made with <span style="color: #F44336">&hearts;</span> by Tafelglotzer.</p>
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

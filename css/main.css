@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    -moz-osx-font-smoothing: grayscale;
+     -webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+h1, h3, b {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p, label, input, textarea, button {
+    font-size: 12px;
+}
+
+p {
+    font-weight: 500;
+}
+
+label {
+    cursor: pointer;
+    user-select: none;
+    line-height: 18px;
+}
+
+input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.04em;
+    padding: 10px;
+    outline: none;
+    border-radius: 3px;
+}
+
+input, textarea {
+    width: 100%;
+    border: 1px solid #EEEEEE;
+    background: #FAFAFA;
+}
+
+input {
+    transition: border-color 0.2s ease-in-out;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    margin: 20px 0;
+    background: #4CAF50;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #43A047;
+}
+
+input[type="checkbox"]:checked + .icon .fa {
+    visibility: visible;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+    color: #616161;
+    line-height: 18px;
+    text-align: center;
+    margin-right: 5px;
+    border: 1px solid #EEEEEE;
+    border-radius: 3px;
+    display: inline-block;
+    background: #FAFAFA;
+}
+
+.icon .fa {
+    visibility: hidden;
+}
