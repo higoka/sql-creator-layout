@@ -1,5 +1,9 @@
+$(document).ready(function () {
+    $('select').niceSelect();
+});
+
 function create() {
-    var input = $('form').find('input');
+    var input = $('form').find('input, select');
 
     $.post('create.php', input.serialize(), function (data) {
         var data = $.parseJSON(data);

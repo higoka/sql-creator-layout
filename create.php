@@ -9,4 +9,4 @@ $creator = new Application();
 
 $creator->pushFormatter(new ArcturusFormatter());
 
-$creator->run('arcturus', $_POST);
+$creator->run($_POST['formatter'], $_POST);
