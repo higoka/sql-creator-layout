@@ -1,11 +1,11 @@
 <?php
 
-use Creator\Creator;
+use Creator\Application;
 use Creator\Formatter\ArcturusFormatter;
 
 require 'vendor/autoload.php';
 
-$creator = new Creator();
+$creator = new Application();
 
 $creator->pushFormatter(new ArcturusFormatter());
 
