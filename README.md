@@ -1,11 +1,10 @@
 # Habbo SQL Creator
 Lightweight and easy to use SQL Creator with the support of multiple emulators.
 
-##### Currently supports:
+#### Currently supports:
 - Arcturus
 
 ### Requirements
-You can install composer [here](getcomposer.org).
 - composer
 
 ### Installation
