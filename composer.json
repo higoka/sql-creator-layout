@@ -1,6 +1,7 @@
 {
     "name": "tafelglotzer/sql-creator-layout",
     "require": {
-        "php": ">=5.6.0"
+        "php": ">=5.6.0",
+        "tafelglotzer/sql-creator": "dev-master"
     }
 }
