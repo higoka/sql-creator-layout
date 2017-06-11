@@ -87,6 +87,11 @@ input[type="checkbox"] {
     display: none;
 }
 
+#button,
+#result {
+    display: none;
+}
+
 .icon {
     width: 18px;
     height: 18px;
