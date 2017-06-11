@@ -5,7 +5,7 @@ Lightweight and easy to use SQL Creator with the support of multiple emulators.
 - Arcturus
 
 ### Requirements
-You can install composer here: getcomposer.org
+You can install composer [here](getcomposer.org).
 - composer
 
 ### Installation
@@ -20,6 +20,6 @@ Contribution, bug fixes etc are [always welcome](https://github.com/tafelglotzer
 - [Tafelglotzer](https://github.com/tafelglotzer)
 - [All Contributors](https://github.com/tafelglotzer/sql-creator-layout/contributors)
 
-## License
+### License
 The MIT License (MIT).
 Please see [License File](https://github.com/tafelglotzer/sql-creator-layout/blob/master/LICENSE) for more information.
