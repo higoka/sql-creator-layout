@@ -1,7 +1,24 @@
-# sql-creator
-Lightweight SQL Creator for Arcturus
+# Habbo SQL Creator
+Lightweight and easy to use SQL Creator with the support of multiple emulators.
 
-If you have improvements or new features create an issue or pull request.
+## Compatibility
+- Arcturus
 
-### Setup
-Download and extract the ZIP file in your htdocs/wwwroot folder and your good to go!
+## Requirements
+- composer
+
+## Installation
+```shell
+$ composer create-project tafelglotzer/sql-creator-layout --stability dev
+```
+
+## Contribute
+Contribution, bug fixes etc are [always welcome](https://github.com/tafelglotzer/sql-creator-layout/issues/new).
+
+## Credits
+- [Tafelglotzer](https://github.com/tafelglotzer)
+- [All Contributors](https://github.com/tafelglotzer/sql-creator-layout/contributors)
+
+## License
+The MIT License (MIT).
+Please see [License File](https://github.com/tafelglotzer/sql-creator-layout/blob/master/LICENSE) for more information.
