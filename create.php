@@ -8,4 +8,4 @@ $creator = new Creator();
 
 $creator->pushFormatter(new Formatter\ArcturusFormatter());
 
-$creator->run('arcturus');
+$creator->run('arcturus', $_POST);
