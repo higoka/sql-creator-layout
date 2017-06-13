@@ -30,6 +30,13 @@
     <p>Height</p>
     <input type="number" name="height" min="0" value="0">
 </div>
+<div class="grid_4">
+    <p>Type</p>
+    <select name="type">
+        <option value="s" selected>s</option>
+        <option value="i">i</option>
+    </select>
+</div>
 
 
 <div class="grid_12">

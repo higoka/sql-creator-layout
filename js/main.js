@@ -1,8 +1,11 @@
 $(document).ready(function () {
     $('select').niceSelect();
     $('select').on('change', function () {
-        $('#content').load('template/' + $(this).val() + '.tpl').hide().fadeIn();
-        $('#button').fadeIn();
+        $('#content').load('template/' + $(this).val() + '.tpl').hide(function () {
+            $('select').niceSelect();
+        }).fadeIn(function () {
+            $('#button').fadeIn();
+        });
     });
 });
 
