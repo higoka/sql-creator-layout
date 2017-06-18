@@ -6,7 +6,7 @@ Lightweight and easy to use SQL Creator with the support of multiple emulators.
 
 ### Installation
 ```shell
-$ composer create-project tafelglotzer/sql-creator-layout --stability dev
+$ composer create-project tafelglotzer/sql-creator-layout
 ```
 
 ### Contribute
