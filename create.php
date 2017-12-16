@@ -1,9 +1,9 @@
 <?php
 
 use Creator\Application;
-use Creator\Formatter\ArcturusFormatter;
 use Creator\Formatter\PlusFormatter;
 use Creator\Formatter\CometFormatter;
+use Creator\Formatter\ArcturusFormatter;
 
 require 'vendor/autoload.php';
 
