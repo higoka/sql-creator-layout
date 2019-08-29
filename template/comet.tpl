@@ -20,15 +20,15 @@
 </div>
 <div class="grid_4">
     <p>Width</p>
-    <input type="number" name="width" min="0" value="0">
+    <input type="number" name="width" min="0" value="0" step="any">
 </div>
 <div class="grid_4">
     <p>Length</p>
-    <input type="number" name="length" min="0" value="0">
+    <input type="number" name="length" min="0" value="0" step="any">
 </div>
 <div class="grid_4">
     <p>Height</p>
-    <input type="number" name="height" min="0" value="0">
+    <input type="number" name="height" min="0" value="0" step="any">
 </div>
 <div class="grid_4">
     <p>Type</p>
@@ -83,15 +83,15 @@
 <div class="grid_8">
     <label>
         <input type="checkbox" name="isSeatable">
-        <span class="icon"><i class="fa fa-check"></i></span>Is seatable
+        <span class="icon"><i class="fa fa-check"></i></span>can sit
     </label>
     <label style="margin-left: 20px;">
         <input type="checkbox" name="isWalkable">
-        <span class="icon"><i class="fa fa-check"></i></span>Is walkable
+        <span class="icon"><i class="fa fa-check"></i></span>can walk
     </label>
     <label style="margin-left: 20px;">
         <input type="checkbox" name="isLayable">
-        <span class="icon"><i class="fa fa-check"></i></span>Is layable
+        <span class="icon"><i class="fa fa-check"></i></span>can lay
     </label>
     <label style="margin-left: 20px;">
         <input type="checkbox" name="vipOnly">
