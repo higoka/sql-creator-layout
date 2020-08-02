@@ -2,6 +2,7 @@
 Lightweight and easy to use SQL Creator with the support of multiple emulators.
 
 **Demo**: https://sqlcreator.ga *(hosted by [@TheRayJohnson](https://github.com/TheRayJohnson))*
+Livedemo is down. Feel free to host it and i will link your account. Contact me on Discord @ higoka#7120 
 
 ### Requirements
 - composer
