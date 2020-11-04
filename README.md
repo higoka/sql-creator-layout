@@ -1,8 +1,7 @@
 # Habbo SQL Creator
 Lightweight and easy to use SQL Creator with the support of multiple emulators.
 
-**Demo**: https://sqlcreator.ga *(hosted by [@TheRayJohnson](https://github.com/TheRayJohnson))*
-Livedemo is down. Feel free to host it and i will link your account. Contact me on Discord @ higoka#7120 
+**Live Version**: https://sqlcreator.ga *(hosted by [Dippy](https://github.com/Dippys)) / Discord @ Dippy#8950* 
 
 ### Requirements
 - composer
